@@ -1,0 +1,35 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "63314e69-b0b7-4cc5-87c6-d64d79122aa0",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1760432438895"
+        }
+      },
+      "favorite": {
+        "name": "docdb-common-crm-dps.cluster-cejxtcrkhjcp.ap-south-1.docdb.amazonaws.com:27017"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://nitin_bhatania:pass%401234@docdb-common-crm-dps.cluster-cejxtcrkhjcp.ap-south-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=C%3A%5CUsers%5Cbnitin%5CDownloads%5Cglobal-bundle.pem",
+        "sshTunnel": {
+          "host": "ec2-65-2-83-16.ap-south-1.compute.amazonaws.com",
+          "port": {
+            "$numberInt": "22"
+          },
+          "username": "ec2-user",
+          "identityKeyFile": "C:\\Users\\bnitin\\Downloads\\bastion-crm.pem"
+        },
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjoxLCJzdGF0ZSI6W119"
+        },
+        "useApplicationLevelProxy": false
+      }
+    }
+  ]
+}
