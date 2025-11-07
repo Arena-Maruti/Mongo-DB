@@ -15,3 +15,10 @@ Password: cmSVCProd@Maruti03
 Cluster end point: docdb-common-crm-dps-new.cluster-cvmg4ymggki0.ap-south-1.docdb.amazonaws.com:27017
 https://dl.pstmn.io/download/latest/win64
 11241M68K00
+
+
+db.collection.find({
+  staging_approved: false,
+  catge_cd: "M"
+})
+
