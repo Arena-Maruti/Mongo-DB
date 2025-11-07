@@ -19,6 +19,6 @@ https://dl.pstmn.io/download/latest/win64
 
 db.collection.find({
   staging_approved: false,
-  catge_cd: "M"
+  catg_cd: "M"
 })
 
